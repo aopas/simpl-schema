@@ -1,6 +1,7 @@
 import MongoObject from 'mongo-object';
 import doValidation from './doValidation';
 
+
 export default class ValidationContext {
   constructor(ss) {
     this._simpleSchema = ss;
